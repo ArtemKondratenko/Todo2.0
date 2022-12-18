@@ -1,17 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int initial_account = 100;
-        int add_funds_acc = 1100;
+        int initialAccount = 100;
+        int addFundsAcc = 1100;
         int bonus;
 
-        if (add_funds_acc > 1000) {
-            bonus = add_funds_acc / 100;
-            int total_sum = add_funds_acc + initial_account;
+        if (addFundsAcc > 1000) {
+            bonus = addFundsAcc / 100;
+            int totalSum = addFundsAcc + initialAccount;
             System.out.println("Бонусы: " + bonus);
-            System.out.println("Итогова сумма на счёту: " + (total_sum + bonus));
+            System.out.println("Итогова сумма на счёту: " + (totalSum + bonus));
         } else {
-            //int total_sum = add_funds_acc + initial_account;
-            System.out.println("Итоговая сумма " + (add_funds_acc + initial_account));
+            //int total_sum = addFundsAcc + initialAccount;
+            System.out.println("Итоговая сумма " + (addFundsAcc + initialAccount));
         }
     }
 }
